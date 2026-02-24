@@ -1,9 +1,9 @@
 # UpcycleConnect-PA2526
 
 ## Team Members
-- Jaydee PHANOUKOUN
 - Youssouf Banhoro DIARRA
 - Sofiane YALA
+- Jaydee PHANOUKOUN
 
 ## Project Overview
 Application web développé dans le cadre du projet annuel ESGI 2A 2025-2026.
