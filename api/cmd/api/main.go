@@ -1,4 +1,3 @@
-module upcycleconnect
 package main
 
 import (
