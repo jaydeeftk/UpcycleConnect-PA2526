@@ -1,19 +1,17 @@
 package main
 
 import (
-  "log"
-  "net/http"
-  "upcycleconnect/internal/routes"
+	"log"
+	"net/http"
 
-  )
+	"upcycleconnect/internal/routes"
+)
 
-func main () {
-  mux := routes.NewRouter()
+func main() {
+	mux := routes.NewRouter()
 
-  addr := ":8080"
-  log.Printf("API listening on %s", addr)
+	addr := ":8080"
+	log.Printf("API listening on %s", addr)
 
-  if err := http.ListenAndServe(addr, mux); err != nil {
-    log.Fatal(err)
-    }
+	log.Fatal(http.ListenAndServe(addr, mux))
 }
